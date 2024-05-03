@@ -1,0 +1,40 @@
+{
+  "name": "element-plus-vite-starter",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "generate": "vite-ssg build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "element-plus": "^2.6.2",
+    "postcss": "^8.4.38",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-element-plus": "^0.8.0",
+    "vue": "^3.4.21",
+    "vue-web-component-wrapper": "^1.4.4"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.15",
+    "@types/node": "^20.11.30",
+    "@unocss/postcss": "^0.59.4",
+    "@unocss/preset-uno": "^0.59.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.72.0",
+    "typescript": "^5.4.3",
+    "unocss": "^0.58.6",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.2.5",
+    "vite-ssg": "^0.23.6",
+    "vue-tsc": "^2.0.7"
+  },
+  "license": "MIT",
+  "volta": {
+    "node": "18.13.0",
+    "yarn": "1.22.17"
+  }
+}

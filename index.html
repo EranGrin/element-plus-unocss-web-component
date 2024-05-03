@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite 4 + Vue 3.3 + Typescript 5 + Web Component</title>
+  </head>
+
+  <body>
+    <my-web-component
+      lang="de"
+      route="/route1"
+      class="my-web-component"
+      api-token="++++++++++++++++++++++++"
+      base-uri="https://my.base.uri"
+      model-value="v-model-value"
+    >
+      <!-- named slot -->
+      <div slot="customName">I am a custom named slot </div>
+    </my-web-component>
+
+    <script type="module" src="./src/main.ts"></script>
+  
+    <script >
+    </script>
+  </body>
+  
+</html>
