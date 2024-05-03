@@ -5,8 +5,6 @@ import Components from 'unplugin-vue-components/vite'
 import path from 'path'
 import UnoCSS from 'unocss/vite'
 import ElementPlus from 'unplugin-element-plus/vite'
-
-
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 const pathSrc = path.resolve(__dirname, 'src')
@@ -42,11 +40,11 @@ export default defineConfig({
     AutoImport({
       imports: ['vue'],
       dts: './auto-imports.d.ts',
-      resolvers: [
-                ElementPlusResolver({
-                  importStyle: 'sass',
-                }),
-              ],
+      // resolvers: [
+      //           ElementPlusResolver({
+      //             importStyle: 'sass',
+      //           }),
+      //         ],
     }),
 
     // https://github.com/antfu/unplugin-vue-components
