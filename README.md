@@ -2,7 +2,7 @@
 
 > A Demo for Element Plus, UnoCSS, Vite and vue-web-component-wrapper
 
-- Preview: <https://vite-starter.element-plus.org>
+- Preview: <https://stackblitz.com/~/github.com/EranGrin/element-plus-unocss-web-component>
 
 ## Features
 
